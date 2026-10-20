@@ -22,6 +22,7 @@ Install: *Settings → Plugins → Marketplace → search "DNS Zone"*.
   more than 10 DNS lookups, `+all`, the obsolete SPF record type (quick fix: change to TXT), DMARC syntax
 - **Naming and DNSSEC hints**: `_service._proto` owners for SRV, `_port._proto` for TLSA, CAA tags and flags, wildcard
   position, NSEC3 iterations and salt (RFC 9276), DNSSEC algorithms and SHA-1 DS digests that RFC 8624 rules out
+- **Reformat Code**: owner, TTL, class, type and data lined up in columns (spaces or tabs, following the file); only whitespace changes
 - **Update SOA serial** intention (Alt+Enter on the SOA record): date serials `YYYYMMDDnn` jump to today, others +1
 - **Completion** of record types (with their fields), classes, directives, CAA tags, SvcParam keys, DNSSEC algorithms
   and of the names defined in the zone
